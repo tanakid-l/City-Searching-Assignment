@@ -1,4 +1,5 @@
 using CitySearchingAssignment.Repositories;
+using CitySearchingAssignment.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// DI
 builder.Services.AddSingleton<ICityRepository, JsonCityRepository>();
+builder.Services.AddScoped<ICityService, CityService>();
 
 var app = builder.Build();
 
