@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\city-searching-assignment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\city-searching-assignment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E76B6F59-F681-4EFB-812B-360A57C2E3D0}|TestProject\\TestProject.csproj|d:\\playground project\\assignment\\city-searching-assignment\\testproject\\cityserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B6F59-F681-4EFB-812B-360A57C2E3D0}|TestProject\\TestProject.csproj|solutionrelative:testproject\\cityserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\data\\current.city.list.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\data\\current.city.list.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|solutionrelative:city-searching-assignment\\repositories\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B6F59-F681-4EFB-812B-360A57C2E3D0}|TestProject\\TestProject.csproj|d:\\playground project\\assignment\\city-searching-assignment\\testproject\\cityapiintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B6F59-F681-4EFB-812B-360A57C2E3D0}|TestProject\\TestProject.csproj|solutionrelative:testproject\\cityapiintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41DB3FBC-FD34-4AE8-9CE7-E2ACA13F2611}|City-Searching-Assignment\\City-Searching-Assignment.csproj|d:\\playground project\\assignment\\city-searching-assignment\\city-searching-assignment\\models\\citymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +46,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "City-Searching-Assignment.http",
+              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\City-Searching-Assignment.http",
+              "RelativeDocumentMoniker": "City-Searching-Assignment\\City-Searching-Assignment.http",
+              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\City-Searching-Assignment.http",
+              "RelativeToolTip": "City-Searching-Assignment\\City-Searching-Assignment.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-12T10:18:49.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\appsettings.json",
+              "RelativeDocumentMoniker": "City-Searching-Assignment\\appsettings.json",
+              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\appsettings.json",
+              "RelativeToolTip": "City-Searching-Assignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-12T10:18:39.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "current.city.list.json",
+              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Data\\current.city.list.json",
+              "RelativeDocumentMoniker": "City-Searching-Assignment\\Data\\current.city.list.json",
+              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Data\\current.city.list.json",
+              "RelativeToolTip": "City-Searching-Assignment\\Data\\current.city.list.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-12T09:33:55.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CityApiIntegrationTests.cs",
+              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\TestProject\\CityApiIntegrationTests.cs",
+              "RelativeDocumentMoniker": "TestProject\\CityApiIntegrationTests.cs",
+              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\TestProject\\CityApiIntegrationTests.cs",
+              "RelativeToolTip": "TestProject\\CityApiIntegrationTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:57:38.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CityServiceUnitTests.cs",
+              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\TestProject\\CityServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "TestProject\\CityServiceUnitTests.cs",
+              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\TestProject\\CityServiceUnitTests.cs",
+              "RelativeToolTip": "TestProject\\CityServiceUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T08:50:03.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "City-Searching-Assignment\\Controllers\\CitiesController.cs",
               "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "City-Searching-Assignment\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T08:40:00.264Z",
               "EditorCaption": ""
@@ -53,46 +134,33 @@
               "RelativeDocumentMoniker": "City-Searching-Assignment\\Services\\CityService.cs",
               "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Services\\CityService.cs",
               "RelativeToolTip": "City-Searching-Assignment\\Services\\CityService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T08:35:25.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Program.cs",
-              "RelativeDocumentMoniker": "City-Searching-Assignment\\Program.cs",
-              "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Program.cs",
-              "RelativeToolTip": "City-Searching-Assignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T08:30:36.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CityRepository.cs",
               "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Repositories\\CityRepository.cs",
               "RelativeDocumentMoniker": "City-Searching-Assignment\\Repositories\\CityRepository.cs",
               "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Repositories\\CityRepository.cs",
               "RelativeToolTip": "City-Searching-Assignment\\Repositories\\CityRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T08:27:21.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CityModels.cs",
               "DocumentMoniker": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Models\\CityModels.cs",
               "RelativeDocumentMoniker": "City-Searching-Assignment\\Models\\CityModels.cs",
               "ToolTip": "D:\\Playground Project\\assignment\\City-Searching-Assignment\\City-Searching-Assignment\\Models\\CityModels.cs",
               "RelativeToolTip": "City-Searching-Assignment\\Models\\CityModels.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T08:24:13.549Z",
               "EditorCaption": ""
