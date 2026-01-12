@@ -5,12 +5,12 @@ using CitySearchingAssignment.Models;
 
 namespace CitySearchingAssignment.Tests;
 
-public class CityServiceTests
+public class CityServiceUnitTests
 {
     private readonly Mock<ICityRepository> _mockRepo;
     private readonly CityService _service;
 
-    public CityServiceTests()
+    public CityServiceUnitTests()
     {
         _mockRepo = new Mock<ICityRepository>();
         _service = new CityService(_mockRepo.Object);
