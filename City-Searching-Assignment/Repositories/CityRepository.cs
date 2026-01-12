@@ -29,7 +29,16 @@ public class JsonCityRepository : ICityRepository
                     Name = c.Name,
                     Country = c.Country,
                     Population = (long)Math.Round((double)(c.Stat?.Population ?? 0)),
-                    AlternativeNames = c.Langs?.SelectMany(d => d.Values).ToList() ?? new()
+
+                    //data cleaning for localization search
+                    AlternativeNames = c.Langs?
+                        .SelectMany(dict => dict)
+                        .Where(kvp =>
+                            !kvp.Key.Equals("link", StringComparison.OrdinalIgnoreCase) &&
+                            !kvp.Value.StartsWith("http", StringComparison.OrdinalIgnoreCase)
+                        )
+                        .Select(kvp => kvp.Value)
+                        .ToList() ?? new()
                 }).ToList();
             }
         }

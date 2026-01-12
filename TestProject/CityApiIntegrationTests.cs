@@ -33,4 +33,13 @@ public class CityApiIntegrationTests : IClassFixture<WebApplicationFactory<Progr
         var response = await _client.GetAsync("/api/cities?name=A");
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
     }
+
+    [Fact]
+    public async Task Search_WikipediaKey_ShouldNotReturnGarbage()
+    {
+        var response = await _client.GetAsync("/api/cities?name=wikipedia");
+        var result = await response.Content.ReadFromJsonAsync<List<CityDto>>();
+
+        Assert.Empty(result ?? new List<CityDto>());
+    }
 }

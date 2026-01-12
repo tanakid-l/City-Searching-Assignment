@@ -42,4 +42,16 @@ public class CityServiceUnitTests
         Assert.Single(result);
         Assert.Equal("US", result[0].Country);
     }
+
+    [Fact]
+    public void Search_DirtyData_ShouldNotBeFound()
+    {
+        var data = new List<CityInternalData> {
+            new() { Name = "HiddenCity", Country = "XX" }
+        };
+        _mockRepo.Setup(r => r.GetCities()).Returns(data);
+
+        var result = _service.Search("http").ToList();
+        Assert.Empty(result);
+    }
 }
