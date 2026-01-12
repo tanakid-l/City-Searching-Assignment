@@ -22,17 +22,36 @@ public class CityService : ICityService
         var countryFilter = parts.Count > 1 ? parts[1] : null;
 
         return _repo.GetCities()
-            .Where(c => (c.Name.Contains(term, StringComparison.OrdinalIgnoreCase) ||
-                         c.AlternativeNames.Any(a => a.Contains(term, StringComparison.OrdinalIgnoreCase))) &&
-                        (countryFilter == null || c.Country.Equals(countryFilter, StringComparison.OrdinalIgnoreCase)))
-            .OrderByDescending(c => c.Name.Equals(term, StringComparison.OrdinalIgnoreCase))
-            .ThenByDescending(c => c.Name.StartsWith(term, StringComparison.OrdinalIgnoreCase))
+            .Where(IsMatch)
+            .OrderByDescending(IsExactMatch)
+            .ThenByDescending(IsPrefixMatch)
             .Take(10)
-            .Select(c => new CityDto
-            {
-                Name = c.Name,
-                Country = c.Country,
-                Population = c.Population
-            });
+            .Select(ToDto);
+
+        // --- Local Functions (Logic Detail) ---
+
+        bool IsMatch(CityInternalData city)
+        {
+            bool nameMatches = city.Name.Contains(term, StringComparison.OrdinalIgnoreCase) ||
+                               city.AlternativeNames.Any(a => a.Contains(term, StringComparison.OrdinalIgnoreCase));
+
+            bool countryMatches = countryFilter == null ||
+                                  city.Country.Equals(countryFilter, StringComparison.OrdinalIgnoreCase);
+
+            return nameMatches && countryMatches;
+        }
+
+        bool IsExactMatch(CityInternalData city) =>
+            city.Name.Equals(term, StringComparison.OrdinalIgnoreCase);
+
+        bool IsPrefixMatch(CityInternalData city) =>
+            city.Name.StartsWith(term, StringComparison.OrdinalIgnoreCase);
+
+        CityDto ToDto(CityInternalData city) => new CityDto
+        {
+            Name = city.Name,
+            Country = city.Country,
+            Population = city.Population
+        };
     }
 }
